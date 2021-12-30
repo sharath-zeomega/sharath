@@ -1,0 +1,43 @@
+project name: Task Application
+
+language used: nodejs and javascript
+
+This project is all about entering the tasks and deleting the task,and listing the tasks whicha are entered.
+
+this contains the 4 main files and some configuraton files and one json file to store the tasks which are entered.
+
+index.js
+
+This is the main file ,in this file we will call the functions to perform delete create and list the tasks.
+
+we need to enter some commands to perform functions
+
+to add the task:node index.js addTodo --title="Tasknames"
+
+To list tasks :node index.js listTodos
+
+To delete task:node index.js deleteTodo --title="task you want to delete"
+
+ code that when ever the user enter the command to add the list it will call the fuction and 
+add the list to the json file
+ 
+if the entered task is duplicated or already present in the json file it will ignore the task 
+
+the function that will delete the task which are in the json file .
+
+if the task is not present in the json file or mistyped it will display todo not found .
+
+the function that will return the tasks that are present in the json file .
+
+it will also display the no of tasks with the title of the tasks, and count of the task.
+
+
+tasks-data.json
+________________
+It is the file that stores all the task enterd by the user .
+
+
+Thanks and Regards
+Sharath K T
+
+
