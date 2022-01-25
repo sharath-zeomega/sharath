@@ -1,0 +1,31 @@
+Sharath K T
+Software trainee Engineer
+Bangalore.
+
+
+
+Building an Application Using Grunt Build Tool
+
+1.Created a grunt file --> gruntfile.js to write all the function need for the grunt operation
+2.Created a static file CSS, JAVASCRIPT,Images
+3.Created a copy of css file using copy of grunt function
+4.Install watch and autoprefixer for watching any changes in the index.html file
+5.For live reload used watch function for live reload
+6.Installed the grunt and excuted the command using grunt and called the function
+
+
+we have to excute the below commands in the node js command prompt 
+--------------------------------------------------------------------
+
+1. npm install grunt-autoprefixer --save-dev
+2. npm install grunt-contrib-watch --save-dev
+3. npm install grunt-contrib-cssmin --save-dev
+4. npm install grunt-contrib-uglify --save-dev
+5. npm install grunt-contrib-imagemin --save-dev
+6. npm install grunt-contrib-copy --save-dev
+7. grunt watch
+8. grunt cssmin
+9. grunt uglify
+10. grunt imagemin
+11. grunt copy
+
